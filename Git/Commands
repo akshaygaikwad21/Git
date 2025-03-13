@@ -1,0 +1,35 @@
+how to generate key pair:
+
+1.ssh-keygen --help
+2. ssh-keygen -f demo (Repository name)
+   -f:(to gen key for our repo) 
+3. generate passphrase:
+enter phasspharse:(Psswd): kunal112
+same passphrase again:      =
+4.ls
+5.ll (long listing)
+6.to check recent keys: ls -al ~/.ssh (for multiple recent keys checking)
+7.$ cat demo.pub
+
+
+
+===============================================================================
+
+
+git config --global user.name "Your Name"
+ 
+git config --global user.email "youremail@yourdomain.com"
+ 
+git config --global --list
+
+
+git add .   --> To add the changes to staging area.
+
+git commit -m "message"  --> To commit the changes.
+
+git push --> To push the changes to main branch.
+
+
+git checkout -b dev  --> To create a new branch and switch on it.
+
+git push origin dev --> To push the changes to dev.
