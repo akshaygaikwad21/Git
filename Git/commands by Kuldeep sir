@@ -1,0 +1,29 @@
+git init --- it will intillize the chages OR changes will be tracked now
+
+git add . -- it will move the changes to staging area
+
+git commit -m "First commit" -- it will commit the chages OR the chages are reay to push
+
+
+git status --- to check the status
+
+git log --- to check  the commit changes
+
+git show --- show changes .
+
+
+------------------------------------------------
+3-4-25
+
+git branch <branch name>--- to create new branch
+
+git checkout <branch name> --- to switch the branch
+
+git checkout -b <branch name> ---- to create new branch and switch to that branch
+
+
+git diff <branch name>  --- to check the diff betn current branch to that branch name that given
+
+git diff <branch name> <file name> --- to check the diff betn current branch to that branch name and the file of that branch.
+
+

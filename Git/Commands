@@ -33,3 +33,5 @@ git push --> To push the changes to main branch.
 git checkout -b dev  --> To create a new branch and switch on it.
 
 git push origin dev --> To push the changes to dev.
+===============================================================================
+
