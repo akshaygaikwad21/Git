@@ -26,4 +26,12 @@ git diff <branch name>  --- to check the diff betn current branch to that branch
 
 git diff <branch name> <file name> --- to check the diff betn current branch to that branch name and the file of that branch.
 
+------------------------------------------------------------------------------
 
+git merge <branch name> ---- To check merge the from the given branch name
+
+git remote -v -- to check the connection betn you local to github
+
+git remote add <alias name of the repo that you wanted clone> <address of that repor Ex. https> --- add the conection
+
+git push <alias name of the repo> <branch name> --------- on which branch you want to push the changes>
