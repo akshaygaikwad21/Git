@@ -29,9 +29,20 @@ git diff <branch name> <file name> --- to check the diff betn current branch to 
 ------------------------------------------------------------------------------
 
 git merge <branch name> ---- To check merge the from the given branch name
+(Ex- git merge master)
 
 git remote -v -- to check the connection betn you local to github
+(Ex git remote -v)
 
 git remote add <alias name of the repo that you wanted clone> <address of that repor Ex. https> --- add the conection
+(Ex - git remote add repo https://github.com/akshaygaikwad21/Git.git )
 
 git push <alias name of the repo> <branch name> --------- on which branch you want to push the changes>
+(Ex - git push origin master)
+
+
+git pull <addres of the repo that you wanted to pull> --- pull the repo
+(Ex- git pull https://github.com/akshaygaikwad21/Git.git )
+
+git pull <alias name of the repo> <branch name of that repo that u wanted to pull> ---- pull the branch from that repo
+(Ex - git pull origin master)
